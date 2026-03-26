@@ -29,3 +29,39 @@ This allows efficient decision-making and strategic gameplay while reducing unne
 - First player to align 3 visible pieces wins
 
 ## Project Structure
+  
+  gobblet-gobblers-ai/
+  │
+  ├── app.py # Main GUI application
+  ├── game_logic.py # Game rules and state management
+  ├── ai_engine.py # Alpha-beta AI implementation
+  ├── performance_test.py # AI performance benchmarking
+  ├── sound_generator.py # Generates sound effects
+  ├── icon.png # Application icon
+  ├── sounds/ # Audio files
+  │ ├── click.wav
+  │ ├── place.wav
+  │ └── win.wav
+  └── README.md
+
+
+## How to Run
+
+1. Install dependencies (if not already installed):
+  pip install pygame
+
+2. Run the game:
+   python app.py
+
+##  Future Improvements
+
+- Add background music system
+- Improve AI behavior and decision variation
+- Expand to web-based version (AI + web development)
+
+##  Purpose
+
+This project demonstrates:
+- Application of AI algorithms in games
+- Integration of logic with a full GUI application
+- Strong application programming and software design skills
